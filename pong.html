@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="pong.js"></script>
+</head>
+<body onload="main()">
+
+    <canvas id="animationCanvas" width="600" height="400" style="background-color: rgb(169, 168, 156);"></canvas>
+    <div id="Score">0 : 0</div><br>
+
+    <div>    
+        <label id="Etiquetas"> Movimientos Jugador 1 arriba: w, abajo s</label><br>
+        <label id="Etiquetas">Movimientos Jugador 2 arriba: u, abajo j</label><br>
+    </div><br>
+
+    <div id="arriba">
+        <buttonR id="resetBtn" class="botonDeReseteo" name="Reset" onclick="resetPuntuaciones(this)" />
+        Presione aquí para resetear valores a 0.
+    </div><br>
+    <div>
+        <label id="Etiquetas">*Cada vez que la pelota impacte en una  </label><br>
+        <label id="Etiquetas">barra, esta aumentara su velocidad en .5  </label><br>
+    </div>
+</body>
+</html>
