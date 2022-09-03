@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangulo de Sierpinski</title>
+</head>
+<body onload="main()">
+    <div class="slider-container">
+        <div class="value-container">
+         
+            <label id="Etiquetas"> Subdivisiones: </label>
+            <span id="demo">0</span>
+        </div> 
+        <input type="range" min="0" max="8" value="0" class="slider" id="myRange">
+    </div>
+    <canvas id="canvas" width="500" height="500" style="background-color: rgb(169, 168, 156);"></canvas>
+    <script type="text/javascript" src="sierpinski.js"></script>
+</body>
+</html>
