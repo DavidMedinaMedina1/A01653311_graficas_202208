@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Examen tanque</title>
+
+<script type="module" src="Tank.js"></script>
+
+<style>
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        border: 0;
+        overflow: hidden;
+    }
+</style>
+
+</head>
+
+<body>
+<div id="container">
+
+    <div id="directional" class="colorSelector">
+        Directional
+        <input id='directionalLight' type="color">
+    </div>
+    <div id="spot" class="colorSelector">
+        Spot
+        <input id='spotLight' type="color">
+    </div>
+    <div id="ambient" class="colorSelector">
+        Ambient
+        <input id='ambientLight' type="color">
+    </div>
+    
+    <canvas id="webglcanvas" width=1600 height=800></canvas>
+
+
+	
+</div>
+
+</html>
